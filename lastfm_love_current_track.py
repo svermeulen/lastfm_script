@@ -49,5 +49,8 @@ if __name__ == "__main__":
     try:
         loveLastTrack()
     except Exception, e:
-        print "Failed. Errors occurred trying to contact last.fm.  Check your settings or network connection."
+        print "Failed."
+        print
+        print "Errors occurred trying to contact last.fm.  Check your settings or network connection."
+        print
     raw_input("Press any key to exit")
